@@ -48,7 +48,7 @@ export default function Home() {
 					className="mt-[110vh] max-w-[1200px] mx-5  xl:mx-11 flex flex-col"
 				>
 					<h1 className="text-6xl font-bold text-[#9B0A1B] mb-4">About Us</h1>
-					<p className="text-black font-semibold text-4xl sm:text-2xl">
+					<p className="text-black font-semibold text-4xl max-sm:text-2xl">
 						Code for 6:ods is an online hackthon which aims to provide practical
 						solutions to help Palestinians regain trust in the wider world.
 						While they receive support through social media, we can offer
