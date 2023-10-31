@@ -32,7 +32,7 @@ export default function Home() {
 						<Image src={slogan} width="1000" alt="fds"></Image>
 						<div className="px-14 top-[450px] max-sm:top-96 timer absolute py-10 backdrop-blur-lg rounded-[27.19px] bg-white/5 ">
 							<h2 className="text-7xl tracking-wider font-medium max-xl:text-2xl">
-								<CountdownTimer targetDate="November 2, 2023 00:00:00" />
+								<CountdownTimer targetDate="November 4, 2023 23:00:00" />
 							</h2>
 						</div>
 						{/* <div className="absolute bottom-0 right-7 max-lg:w-56 w-72 max-sm:w-20">
