@@ -7,7 +7,7 @@ export default function Rules() {
 		<>
 			<button
 				onClick={() => setVisible(true)}
-				className="relative ml-auto w-24 text-white inline-flex h-10  items-center justify-center rounded-md bg-[#007C38] px-6 font-medium  transition-colors focus:outline-none focus:ring-2 focus:ring-[#81ff20] focus:ring-offset-2 focus:ring-offset-slate-50"
+				className="relative mt-2 ml-auto w-24 text-white inline-flex h-10  items-center justify-center rounded-md bg-[#007C38] px-6 font-medium  transition-colors focus:outline-none focus:ring-2 focus:ring-[#81ff20] focus:ring-offset-2 focus:ring-offset-slate-50"
 			>
 				<div className="absolute  -inset-0.5 -z-10 rounded-lg bg-gradient-to-b from-[#fff] to-[#81ff20] opacity-75 blur" />
 				Rules
