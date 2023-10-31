@@ -1,17 +1,43 @@
 import Image from "next/image"
 import card1 from "public/card1.svg"
-import card1flip from "public/card1flip.svg"
-import card2 from "public/card2.svg"
-import card2flip from "public/card2flip.svg"
-import card3 from "public/card3.svg"
-import card3flip from "public/card3flip.svg"
+import card1flip from "public/card1flip.png"
+import card2 from "public/card2.webp"
+import card2flip from "public/card2flip.webp"
+import card3 from "public/card3.webp"
+import card3flip from "public/card3flip.webp"
+import card4 from "public/card4.webp"
+
+import card4flip from "public/card4flip.webp"
+import card5 from "public/card5.webp"
+import card5flip from "public/card5flip.webp"
 import footer from "public/footer.svg"
 import logo from "public/logo.svg"
 import slogan from "public/slogan.svg"
 import CountdownTimer from "./components/countdown"
 import { Nav } from "./components/nav"
 import Rules from "./components/rules"
-
+const card = [
+	{
+		front: card1,
+		back: card1flip,
+	},
+	{
+		front: card2,
+		back: card2flip,
+	},
+	{
+		front: card3,
+		back: card3flip,
+	},
+	{
+		front: card4,
+		back: card4flip,
+	},
+	{
+		front: card5,
+		back: card5flip,
+	},
+]
 export default function Home() {
 	return (
 		<div className="bg-white">
@@ -35,12 +61,6 @@ export default function Home() {
 								<CountdownTimer targetDate="November 4, 2023 23:00:00" />
 							</h2>
 						</div>
-						{/* <div className="absolute bottom-0 right-7 max-lg:w-56 w-72 max-sm:w-20">
-							<Image src={angel} alt="fds"></Image>
-						</div>
-						<div className="absolute bottom-0 left-7 max-lg:w-56 w-72 max-sm:w-20">
-							<Image src={boy} alt="fds"></Image>
-						</div> */}
 					</div>
 				</section>
 				<section
@@ -65,31 +85,17 @@ export default function Home() {
 					<h1 className="text-4xl font-extrabold text-black ">
 						Hackthon Tracks
 					</h1>
-					<ul className="mt-5 flex flex-wrap items-center max-lg:flex-col gap-5">
-						<li className="card">
-							<div className="front">
-								<Image src={card1} alt="card1" />
-							</div>
-							<div className="back">
-								<Image src={card1flip} alt="card1" />
-							</div>
-						</li>
-						<li className="card">
-							<div className="front">
-								<Image src={card2} alt="card1" />
-							</div>
-							<div className="back">
-								<Image src={card2flip} alt="card1" />
-							</div>
-						</li>
-						<li className="card">
-							<div className="front">
-								<Image src={card3} alt="card1" />
-							</div>
-							<div className="back">
-								<Image src={card3flip} alt="card1" />
-							</div>
-						</li>
+					<ul className="mt-5 flex flex-wrap items-center max-lg:flex-col justify-center gap-5 max-w-[1200px]">
+						{card.map((item, index) => (
+							<li key={index} className="card">
+								<div className="front">
+									<Image src={item.front} alt="card1" />
+								</div>
+								<div className="back">
+									<Image src={item.back} alt="card1" />
+								</div>
+							</li>
+						))}
 					</ul>
 				</section>
 			</main>
