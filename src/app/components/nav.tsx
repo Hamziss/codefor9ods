@@ -49,9 +49,15 @@ export function Nav({
 				{children}
 
 				<div className="flex flex-row absolute  items-center max-md:hidden gap-5 font-bold text-[#575757]">
-					<Link href={"/"}>Home</Link>
-					<Link href="/#aboutus">Description</Link>
-					<Link href="/#tracks">Tracks</Link>
+					<Link href={"/"} className="hover:text-white">
+						Home
+					</Link>
+					<Link href="/#aboutus" className="hover:text-white">
+						Description
+					</Link>
+					<Link href="/#tracks" className="hover:text-white">
+						Tracks
+					</Link>
 				</div>
 				<div className="ml-auto flex items-center gap-3">
 					<Link
