@@ -1,6 +1,4 @@
 import Image from "next/image"
-import angel from "public/angel.svg"
-import boy from "public/boy.svg"
 import card1 from "public/card1.svg"
 import card1flip from "public/card1flip.svg"
 import card2 from "public/card2.svg"
@@ -37,12 +35,12 @@ export default function Home() {
 								<CountdownTimer targetDate="November 1, 2023 00:00:00" />
 							</h2>
 						</div>
-						<div className="absolute bottom-0 right-7 max-lg:w-56 w-72 max-sm:w-20">
+						{/* <div className="absolute bottom-0 right-7 max-lg:w-56 w-72 max-sm:w-20">
 							<Image src={angel} alt="fds"></Image>
 						</div>
 						<div className="absolute bottom-0 left-7 max-lg:w-56 w-72 max-sm:w-20">
 							<Image src={boy} alt="fds"></Image>
-						</div>
+						</div> */}
 					</div>
 				</section>
 				<section

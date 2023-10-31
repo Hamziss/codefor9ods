@@ -48,7 +48,7 @@ export function Nav({
 				</Link>
 				{children}
 
-				<div className="flex flex-row absolute  items-center max-md:hidden gap-5 font-bold">
+				<div className="flex flex-row absolute  items-center max-md:hidden gap-5 font-bold text-[#575757]">
 					<Link href={"/"}>Home</Link>
 					<Link href="/#aboutus">Description</Link>
 					<Link href="/#tracks">Tracks</Link>
