@@ -37,10 +37,10 @@ export default function Home() {
 								<CountdownTimer targetDate="November 1, 2023 00:00:00" />
 							</h2>
 						</div>
-						<div className="absolute bottom-0 right-7 max-lg:w-52 max-sm:w-20">
+						<div className="absolute bottom-0 right-7 max-lg:w-56 w-72 max-sm:w-20">
 							<Image src={angel} alt="fds"></Image>
 						</div>
-						<div className="absolute bottom-0 left-7 max-lg:w-52 max-sm:w-20">
+						<div className="absolute bottom-0 left-7 max-lg:w-56 w-72 max-sm:w-20">
 							<Image src={boy} alt="fds"></Image>
 						</div>
 					</div>
