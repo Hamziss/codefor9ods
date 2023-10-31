@@ -9,6 +9,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
 	title: "Code for 6:ods",
+	icons: ["/favicon.svg"],
 	description:
 		"Code for 6:ods is an online hackthon which aims to provide practical solutions to help Palestinians",
 }
