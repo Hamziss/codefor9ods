@@ -61,11 +61,11 @@ export function Nav({
 				</div>
 				<div className="ml-auto flex items-center gap-3">
 					<Link
-						href="https://docs.google.com/forms/d/e/1FAIpQLScclc1mDyzHPMotuRnWeQT1x3Adsq8fEM13H_2K2V_JSoXj1g/viewform?fbzx=6791889018575505979"
+						href="https://www.instagram.com/code.for.qods/"
 						target="_blank"
 						className="inline-flex h-10 animate-background-shine items-center justify-center rounded-md border border-[#5865F2] bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium transition-colors focus:outline-none focus:ring-2 text-[#5865F2] focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
 					>
-						Discord
+						Instagram
 					</Link>
 					<Link
 						href="https://docs.google.com/forms/d/e/1FAIpQLScclc1mDyzHPMotuRnWeQT1x3Adsq8fEM13H_2K2V_JSoXj1g/viewform?fbzx=6791889018575505979"
