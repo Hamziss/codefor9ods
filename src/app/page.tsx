@@ -1,10 +1,8 @@
 import Image from "next/image"
 import card1 from "public/card1.svg"
 import card1flip from "public/card1flip.png"
-import card2 from "public/card2.webp"
+import card2 from "public/card2.png"
 import card2flip from "public/card2flip.webp"
-import card3 from "public/card3.webp"
-import card3flip from "public/card3flip.webp"
 import card4 from "public/card4.webp"
 
 import card4flip from "public/card4flip.webp"
@@ -25,10 +23,10 @@ const card = [
 		front: card2,
 		back: card2flip,
 	},
-	{
-		front: card3,
-		back: card3flip,
-	},
+	// {
+	// 	front: card3,
+	// 	back: card3flip,
+	// },
 	{
 		front: card4,
 		back: card4flip,
@@ -85,7 +83,7 @@ export default function Home() {
 					<h1 className="text-4xl font-extrabold text-black ">
 						Hackthon Tracks
 					</h1>
-					<ul className="mt-5 flex flex-wrap items-center max-lg:flex-col justify-center gap-5 max-w-[1200px]">
+					<ul className="mt-5 flex flex-wrap items-center max-lg:flex-col justify-center gap-5 ">
 						{card.map((item, index) => (
 							<li key={index} className="card">
 								<div className="front">
