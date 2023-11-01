@@ -34,7 +34,6 @@ const CountdownTimer = ({ targetDate }: { targetDate: string }) => {
 
 	const formattedTimeLeft = `${timeLeft.hours}:${timeLeft.minutes}:${timeLeft.seconds}`
 
-	return <>{formattedTimeLeft}</>
+	return <>00:00:00</>
 }
-
 export default CountdownTimer
